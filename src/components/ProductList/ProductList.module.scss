@@ -26,3 +26,15 @@
 .product-list {
     display: flex;
 }
+
+@media (max-width: 740px) {
+    .product-list {
+        margin: 0 20px;
+    }
+}
+
+@media (min-width: 740px) {
+    .product-list {
+        margin: 0 20px;
+    }
+}
