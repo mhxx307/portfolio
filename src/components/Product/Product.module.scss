@@ -1,0 +1,46 @@
+.wrapper {
+    width: 200px;
+}
+
+.product {
+    position: relative;
+    min-height: 40vh;
+    margin: 20px 0;
+    border-radius: 10px 10px 0 0;
+    border: 2px solid rgb(243, 242, 242);
+    overflow: hidden;
+
+    .browser {
+        display: flex;
+        align-items: center;
+        height: 20px;
+        background-color: rgb(243, 242, 242);
+        position: sticky;
+        z-index: 100;
+
+        p {
+            width: 6px;
+            height: 6px;
+            border-radius: 50%;
+            background-color: var(--white-color);
+            margin: 3px;
+        }
+    }
+
+    a {
+        display: flex;
+        cursor: pointer;
+    }
+
+    .image {
+        position: absolute;
+        width: 100%;
+        transition: all 10s ease;
+    }
+
+    &:hover {
+        .image {
+            transform: translateY(-100%);
+        }
+    }
+}
