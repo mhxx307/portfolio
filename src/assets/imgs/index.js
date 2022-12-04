@@ -12,6 +12,7 @@ const images = {
     musicPlayer: require('./musicPlayer.png'),
     bootstrap1: require('./bootstrap_ui1.png'),
     theBand: require('./theBand.png'),
+    youtube: require('./youtube.png'),
 };
 
 export default images;

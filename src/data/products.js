@@ -31,6 +31,11 @@ const products = [
         img: images.theBand,
         link: 'https://mhxx307.github.io/clone-w3school-band/',
     },
+    {
+        id: 7,
+        img: images.youtube,
+        link: 'https://minhquan-youtube-clone.netlify.app/',
+    },
 ];
 
 export default products;
