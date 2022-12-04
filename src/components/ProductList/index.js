@@ -16,9 +16,8 @@ function ProductList() {
                 </div>
                 <div className={cx('row')}>
                     <p className={cx('col', 'l-12 m-12 c-12')}>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing
-                        elit. Dolorum deserunt dolore doloribus officiis atque.
-                        Id tenetur nostrum porro dolores maiores.
+                        The project below was created by me during my school
+                        studies and self-study.
                     </p>
                 </div>
             </div>

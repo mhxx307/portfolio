@@ -24,15 +24,15 @@ function About() {
                     <div className={cx('right')}>
                         <h1>About Me</h1>
                         <p className={cx('sub')}>
-                            Lorem ipsum dolor sit amet consectetur, adipisicing
-                            elit. Laborum, ut?
+                            I am a 4th year student at Industrial University of
+                            Ho Chi Minh City
                         </p>
                         <p className={cx('description')}>
-                            Lorem ipsum dolor sit amet consectetur adipisicing
-                            elit. Doloribus commodi perspiciatis pariatur
-                            repellendus quidem soluta itaque eveniet excepturi,
-                            repudiandae sint alias? Dolore porro error voluptate
-                            eius quae. Labore, consectetur est!
+                            Majoring in software engineering. I have good logic
+                            in programming. Capable of working independently and
+                            in groups. I can also read and understand the
+                            required documents in English and can work from 3
+                            days to 5 days a week.
                         </p>
                     </div>
                 </div>

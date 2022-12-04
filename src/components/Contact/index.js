@@ -50,7 +50,7 @@ function Contact() {
             <div className={cx('wrapper', 'row')}>
                 <div className={cx('col', 'l-6 m-6 c-12')}>
                     <div className={cx('left')}>
-                        <h1>Let's discuss your project</h1>
+                        <h1>Let's discuss</h1>
                         <div className={cx('info')}>
                             <div className={cx('info-item')}>
                                 <img src={images.phone} alt="phone icon" />
@@ -70,9 +70,8 @@ function Contact() {
                 <div className={cx('col', 'l-6 m-6 c-12')}>
                     <div className={cx('right')}>
                         <p>
-                            <b>What's your story?</b> Lorem ipsum dolor sit amet
-                            consectetur adipisicing elit. Eius vero tempora
-                            obcaecati possimus odio minima ?
+                            <b>What's your story?</b> You can contact me through
+                            the following form, information will be sent to me.
                         </p>
                         <form ref={formRef} onSubmit={handleSubmit}>
                             <input

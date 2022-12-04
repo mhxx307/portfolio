@@ -10,7 +10,9 @@ function Intro() {
     const jobs = [
         'Frontend Developer',
         'Backend Developer',
-        'Fullstack Developer',
+        'Html/Css javascript',
+        'Node.js',
+        'ReactJS',
     ];
     const { state } = useContext(ThemeContext);
     const darkMode = state.darkMode;
@@ -38,10 +40,10 @@ function Intro() {
 
                         {/* description */}
                         <p className={cx('description')}>
-                            Lorem ipsum dolor sit amet consectetur, adipisicing
-                            elit. Reprehenderit temporibus, suscipit sapiente
-                            sit corporis commodi similique fuga libero aperiam
-                            consequatur.
+                            Apart from being a web developer, I enjoy most of my
+                            time to workout. In my spare time, I watch some
+                            movies and listen to music, and I spend a lot of my
+                            free time to learn new technologies..
                         </p>
                     </div>
                     {/* end info */}
