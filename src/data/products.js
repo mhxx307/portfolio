@@ -36,6 +36,11 @@ const products = [
         img: images.youtube,
         link: 'https://minhquan-youtube-clone.netlify.app/',
     },
+    {
+        id: 8,
+        img: images.theBank,
+        link: 'https://mhxx307.github.io/bank-modern-app/',
+    },
 ];
 
 export default products;
